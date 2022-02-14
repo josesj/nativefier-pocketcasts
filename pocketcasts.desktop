@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=~/.local/share/pocketcasts/Pocketcasts
+Icon=~/.local/share/pocketcasts/resources/app/icon.png
+Name=Pocket Casts
+Categories=Audio;Music;Player;AudioVideo;
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+StartupWMClass=pocketcasts-nativefier-7a5499

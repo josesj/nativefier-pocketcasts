@@ -1,0 +1,6 @@
+#!/bin/sh
+nativefier -p linux -a x64 -i icon.png --name "Pocketcasts" --disable-context-menu --disable-dev-tools --single-instance --global-shortcuts shortcuts.json https://play.pocketcasts.com/
+mv Pocketcasts-linux-x64 pocketcasts
+rm -rf ${HOME}/.local/share/pocketcasts
+mv pocketcasts ${HOME}/.local/share/
+cp pocketcasts.desktop ${HOME}/.local/share/applications/pocketcast.desktop
